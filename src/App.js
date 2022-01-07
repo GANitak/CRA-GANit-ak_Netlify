@@ -4,6 +4,7 @@ import logo from "./logo.svg"
 
 import "./App.css"
 
+
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -25,7 +26,6 @@ class LambdaDemo extends Component {
     return (
       <p>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
         <br />
         <span>{msg}</span>
       </p>
@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={IMGanit} className="App-svglogo" alt="facelogo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -48,5 +48,31 @@ class App extends Component {
     )
   }
 }
+
+// class Twitch extends Component {
+//   render(){
+//     return(
+//       <div className="TwitchCounter">
+//         <header className="Counter-header">
+//          <button onClick={counter}> Tell me that you are here</button>
+//         </header>
+//           <Twitch/>
+//        </div>
+//            )
+//    }
+// } 
+
+// function Form() {
+//   function handleSubmit(e) {
+//     e.preventDefault();    console.log('You clicked submit.');
+//   }
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <button type="submit">Submit</button>
+//     </form>
+//   );
+// }
+
 
 export default App

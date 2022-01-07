@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
+import IMGanit from "./IMGanit.svg"
 //import styles from "./styles.css"
 
 import "./App.css"
@@ -25,6 +25,11 @@ class LambdaDemo extends Component {
 
     return (
       <p>
+      <h2>Welcome to GANit_ak.io</h2>
+      <br/> :: What they do :: <br/>
+
+**web & mobile app development** 
+  front end & back end<br/>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
         <br />
         <span>{msg}</span>
@@ -32,6 +37,7 @@ class LambdaDemo extends Component {
     )
   }
 }
+
 
 class App extends Component {
   render() {
@@ -48,31 +54,5 @@ class App extends Component {
     )
   }
 }
-
-// class Twitch extends Component {
-//   render(){
-//     return(
-//       <div className="TwitchCounter">
-//         <header className="Counter-header">
-//          <button onClick={counter}> Tell me that you are here</button>
-//         </header>
-//           <Twitch/>
-//        </div>
-//            )
-//    }
-// } 
-
-// function Form() {
-//   function handleSubmit(e) {
-//     e.preventDefault();    console.log('You clicked submit.');
-//   }
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <button type="submit">Submit</button>
-//     </form>
-//   );
-// }
-
 
 export default App

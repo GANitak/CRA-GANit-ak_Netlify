@@ -25,11 +25,7 @@ class LambdaDemo extends Component {
 
     return (
       <p>
-      <h2>Welcome to GANit_ak.io</h2>
-      <br/> :: What they do :: <br/>
-
-**web & mobile app development** 
-  front end & back end<br/>
+      
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
         <br />
         <span>{msg}</span>
@@ -45,8 +41,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p><h2>Welcome to GANit_ak.io</h2>
+      <br/> :: What they do :: <br/>
+
+**web & mobile app development** 
+  (front end) & back end<br/>
+          <code>Happy times</code> G0 after that.
           </p>
           <LambdaDemo />
         </header>

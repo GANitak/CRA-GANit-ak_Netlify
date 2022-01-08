@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 import IMGanit from "./IMGanit.svg"
-//import styles from "./styles.css"
-
 import "./App.css"
 
 
@@ -41,15 +39,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
-          <p><h2>Welcome to GANit_ak.io</h2>
+          </header>
+          <textblock><h2>Welcome to GANit_ak.io</h2>
       <br/> :: What they do :: <br/>
-
+        
 **web & mobile app development** 
   (front end) & back end<br/>
           <code>Happy times</code> G0 after that.
-          </p>
+          </textblock>
           <LambdaDemo />
-        </header>
       </div>
     )
   }

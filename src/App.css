@@ -24,8 +24,12 @@
   color: #61dafb;
 }
 
+.div {
+  background-color: #111213;
+}
+
 .textblock {
-  background-color: lightgreen;
+  background-color: orangered;
   animation: ease-in;
 }
 

@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f9a32f1-e358-4537-926a-b967ded0afc9/deploy-status)](https://app.netlify.com/sites/ganitak/deploys)
+
+
 ///DOC from NETLIFY
 ## Deployment
 

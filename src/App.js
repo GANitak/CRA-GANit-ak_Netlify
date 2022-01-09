@@ -22,12 +22,11 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
-      <p>
-      
+      <container>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
         <br />
         <span>{msg}</span>
-      </p>
+      </container>
     )
   }
 }
@@ -40,13 +39,13 @@ class App extends Component {
         <header className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
           </header>
-          <textblock>
+          <section>
           <h2>Welcome to GANit_ak.io</h2>
       <br/> :: What they do :: <br/>
         **web & mobile app development** 
   (front end) & back end<br/>
           <code>Happy times</code> G0 after that.
-          </textblock>
+          </section>
           <LambdaDemo />
       </div>
     )

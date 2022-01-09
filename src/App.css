@@ -2,6 +2,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  background-color: green;
 }
 
 .App-logo {
@@ -17,27 +18,27 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: lightgreen;
+  background-color: lightgreen;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.div {
-  background-color: #111213;
-}
-
-.textblock {
+.section {
   background-color: orangered;
   animation: ease-in;
 }
 
-@keyframes App-logo-spin {
+.container {
+  background-color: orangered;
+}
+
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+}*/

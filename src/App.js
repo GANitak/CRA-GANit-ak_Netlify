@@ -40,10 +40,10 @@ class App extends Component {
         <header className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
           </header>
-          <textblock><h2>Welcome to GANit_ak.io</h2>
+          <textblock>
+          <h2>Welcome to GANit_ak.io</h2>
       <br/> :: What they do :: <br/>
-        
-**web & mobile app development** 
+        **web & mobile app development** 
   (front end) & back end<br/>
           <code>Happy times</code> G0 after that.
           </textblock>

@@ -1,36 +1,77 @@
-.App {
-  text-align: center;
+.App{
   margin: 0;
   padding: 0;
-  background-color: #369f14;
-}
-
-.App-svglogo {
-/*  animation: App-logo-spin infinite 20s linear;
-*/  height: 40vmin;
-}
-
-.App-header {
+  text-align: center;
   background-color: #369f14;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  border-style: double;
+} 
+
+.App-header {
+  margin: 0;
+  padding: 0;/*
+  width: 654vh;
+  height: 275vh;*/
+  background-color: #369f14;
+  max-height: 275vh;
+  display: flex-start;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #369f14;
+.App-svglogo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  margin: 0;
+  padding: 0;
+  height: 64vmin;
+  border-image-slice: fill;
+  border-style: dashed;
 }
 
 .section {
-  background-color: orangered;
-  animation: ease-in;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-width: 10vh;
+  border-style: solid;
+  font-family: cursive;
+}
+.h2 {
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  display: block;
+  box-sizing: content-box;/*
+  border-width: 2em;
+  border: thin;*/
+/*  font-size: calc(10px + 2vmin);
+*/}
+
+
+.App-link {
+  margin: 0;
+  padding: 0;
+  color: #369f14;
+}
+
+
+.container-text{
+/*  min-width: 10vh;
+*/border-spacing: 0.5;
+  display: flex;
+  box-sizing: content-box;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
 }
 
 .container {
-  background-color: orangered;
+  margin: 0;
+  padding: 0;
+  min-width: 10vh;
+  border: solid;
+}
+
+.LambdaDemo{
+  color: darkviolet;
 }
 
 /*@keyframes App-logo-spin {

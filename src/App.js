@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import IMGanit from "./IMGanit.svg"
 import "./App.css"
+import { Link } from 'react-router-dom'
+
 
 
 class LambdaDemo extends Component {
@@ -41,11 +43,14 @@ class App extends Component {
           </header>
           <section>
           <h2>Welcome to GANit_ak.io</h2>
-      <br/> :: What they do :: <br/>
-        **web & mobile app development** 
-  (front end) & back end<br/>
-          <code>Happy times</code> G0 after that.
+          <container-text>
+      :: What they do :: <br/>
+        <em>web & mobile app development<br/></em>
+        (front end) & back end<br/>
+          <strong><code>Happy times G0 after that.</code></strong>
+          </container-text>
           </section>
+          <br/>
           <LambdaDemo />
       </div>
     )

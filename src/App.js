@@ -41,15 +41,15 @@ class App extends Component {
         <header className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
           </header>
-          <section>
-          <h2>Welcome to GANit_ak.io</h2>
-          <container-text>
+            <section>
+            <h2>Welcome to GANit_ak.io</h2>
+            <container-text>
       :: What they do :: <br/>
         <em>web & mobile app development<br/></em>
         (front end) & back end<br/>
           <strong><code>Happy times G0 after that.</code></strong>
-          </container-text>
-          </section>
+            </container-text>
+            </section>
           <br/>
           <LambdaDemo />
       </div>

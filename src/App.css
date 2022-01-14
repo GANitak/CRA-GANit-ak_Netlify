@@ -1,5 +1,8 @@
 .App{
-  margin: 0;
+  margin-top: 1;
+  margin-right: 2;
+  margin-bottom: 1;
+  margin-left: 2;
   padding: 0;
   text-align: center;
   background-color: #369f14;
@@ -57,7 +60,7 @@
   padding: 0;
   color: #369f14;
   position: relative;
-  
+
 }
 
 

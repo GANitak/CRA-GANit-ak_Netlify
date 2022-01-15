@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
 // import { render } from "react-dom";
 // import {
 //   BrowserRouter,
@@ -26,8 +27,8 @@ import * as serviceWorker from './serviceWorker';
 //     </Routes>
 //   </BrowserRouter>,
 
-
 ReactDOM.render(<App />, document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

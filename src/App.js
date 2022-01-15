@@ -3,8 +3,6 @@ import IMGanit from "./IMGanit.svg"
 import "./App.css"
 import { Link } from 'react-router-dom'
 
-
-
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -15,7 +13,7 @@ class LambdaDemo extends Component {
     e.preventDefault()
 
     this.setState({ loading: true })
-    fetch("/.netlify/functions/" + api)
+    fetch("/onClick" + api)
       .then(response => response.json())
       .then(json => this.setState({ loading: false, msg: json.msg }))
   }
@@ -33,24 +31,22 @@ class LambdaDemo extends Component {
   }
 }
 
-
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <section className="App-header">
           <img src={IMGanit} className="App-svglogo" alt="facelogo" />
-          </header>
-            <section>
-            <h2>Welcome to GANit_ak.io</h2>
-            <container-text>
+            <main>
+            <p><strong>Welcome to GANit_ak.io</strong></p>
+            <p>
       :: What they do :: <br/>
         <em>web & mobile app development<br/></em>
         (front end) & back end<br/>
           <strong><code>Happy times G0 after that.</code></strong>
-            </container-text>
-            </section>
-          <br/>
+            </p>
+            </main>
+        </section>
           <LambdaDemo />
       </div>
     )

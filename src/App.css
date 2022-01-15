@@ -1,3 +1,8 @@
+.html {
+  margin: 0;
+  padding: 0;
+}
+
 .App{
   margin-top: 1;
   margin-right: 2;
@@ -6,7 +11,7 @@
   padding: 0;
   text-align: center;
   background-color: #369f14;
-  min-height: 100vh;
+  min-height: 98vh;
   border-style: double;
 } 
 
@@ -28,57 +33,58 @@
   /*animation: App-logo-spin infinite 20s linear;*/
   margin: 0;
   padding: 0;
+  display: flex-start;
   height: 72vmin;
   border-image-slice: fill;
   border-style: dashed;
   position: relative;
   top: 15px;
+  bottom: 15px;
 }
 
 .section {
   margin: 0;
   padding: 0;
-  position: relative;
-  display: flex;
-  min-width: 10vh;
+  display: flex-start;
+  /*
+  min-width: 150vh;
   border-style: solid;
-  font-family: cursive;
+  font-family: cursive;*/
 }
-.h2 {
-  max-width: 100vh;
+
+.main {
+  display: flex-end;
+  /*font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+*/}
+.p {
+  font-size: large;
+  display: relative;/*
+  pointer-events: visibleFill;*/
+}
+/*max-width: 100vh;
   font-size: clamp(1.8rem, 2.5vw, 2.8rem);
-  display: block;
-  position: relative;
-/*
+  
   box-sizing: content-box;
   border: thin;
-  font-size: calc(10px + 2vmin);*/
-}
+  font-size: calc(10px + 2vmin);
+}*/
 
 .App-link {
   margin: 0;
   padding: 0;
   color: #369f14;
   position: relative;
-
-}
-
-
-.container-text{
-/*  min-width: 10vh;
-*/border-spacing: 0.5;
-
-  display: flex;
-  box-sizing: content-box;
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
 }
 
 .container {
   margin: 0;
   padding: 0;
-  min-width: 10vh;
-  border: solid;
   bottom: 15px;
+  align-items: center;
+  }
+
+.button {
+  background-color: yellowgreen;
 }
 
 .LambdaDemo{
